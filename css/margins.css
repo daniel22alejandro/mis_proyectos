@@ -1,0 +1,45 @@
+.box-style {
+    width: 300px;
+    display: inline-block;
+    /* primera forma de poner las margenes 
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px; */
+    /* Segunda forma de poner margenes
+    margin: 30px 10px */
+    /* Tercera forma de poner margenes
+    margin: 30px */
+    margin: 30px;
+    /* para el padding se puede usar de las mismas maneras que el margin */
+    padding: 0 45px;
+    text-align: justify;
+    /* por defecto viene en 0 */
+    letter-spacing: -.1em;
+    /* por defecto viene en 0 */
+    word-spacing: .2em;
+    /* por defecto vieen 1.2em */
+    line-height: 2em;
+
+}
+.box-1 {
+    /* grosor del borde, tipo de borde y color de borde */
+    border: 5px solid rgb(64, 64, 64);
+    background-color: rgb(149, 209, 190);
+}
+.box-2 {
+    border: 5px dotted rgb(187, 34, 34);
+    background-color: rgb(212, 107, 37);
+}
+.box-3 {
+    border: 5px dashed rgb(99, 22, 115);
+    background-color: rgb(145, 74, 204);
+}
+.box-4 {
+    border: 5px double rgb(12, 140, 59);
+    background-color: rgb(111, 211, 124);
+}
+p {
+    font-size: 1.4em;
+    color:rgb(64, 64, 64)
+}

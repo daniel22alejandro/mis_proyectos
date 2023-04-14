@@ -1,0 +1,107 @@
+h1 { 
+    text-align: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+	padding: 20px;
+	background-color: #7c6f6f;
+	border-bottom: 1px solid #7c6f6f;
+	box-shadow: 0 2px 4px #7c6f6f;
+}
+
+.header-container {
+	display: inline-block;
+}
+
+.header-title {
+	float: right;
+}
+body {
+    background-color: gray;
+    color: white;
+}
+.table-box {
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+    font-size: 2.2em;
+    font-family: sans-serif;
+    border: 0;
+}
+th, td {
+/* border: 1px solid rgb(24, 24, 24); */
+padding: 10px 15px;
+}
+.col-style {
+    width: 150px;
+}
+
+.col-fam {
+    background-color: rgb(254, 152, 44);
+    color: white
+}
+.col-precio1 {
+    background-color: rgb(251, 166, 49);
+    color: white;
+}
+.col-bron {
+    background-color: rgb(255, 120, 13);
+    color: white;
+}
+.col-gol { 
+    background-color: rgb(252, 103, 19);
+    color: white;
+}
+.col-pla {
+    background-color: rgb(221, 54, 1);
+    color: white;
+}
+.col-precio2 {
+    background-color: rgb(253, 155, 44);
+    color: white;
+}
+.col-precio3 {
+    background-color: rgb(254, 117, 21);
+    color: white;
+}
+.col-precio4 {
+    background-color: rgb(252, 100, 16);
+    color: white;
+}
+.col-plan {
+    background-color: rgb(62, 66, 78);
+    color: white;
+}
+.col-cara {
+    background-color: rgb(236, 240, 241);
+    color: black;
+}
+.col-dis {
+    background-color: rgb(254, 254, 254);
+    color: black;
+}
+.fas {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-check {
+    color: green;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-times {
+    color: red;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}

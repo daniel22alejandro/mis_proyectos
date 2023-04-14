@@ -1,0 +1,45 @@
+
+div.box-colores {
+    display: flex;
+    flex-direction: row;
+}
+div.box-color { 
+    width: 250px;
+    height: 250px;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+span {
+    color: aliceblue;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.color-blue {
+    background-color: blue;
+}
+div.color-darckcyan {
+    background-color: darkcyan;
+}
+div.color-yellowgreen {
+    background-color: yellowgreen;
+}
+div.color-255-0-0 {
+    background-color:RGB(250,00,00) ;
+}
+div.color-186-63-112 {
+    background-color: RGB(186,63,112);
+}
+div.color-210-87-35 {
+    background-color: RGB(210,87,35);
+}
+div.color-87ff89 {
+    background-color: #87ff89;
+}
+div.color-ff6723 {
+    background-color: #ff6723;
+}
+div.color-4481ff {
+    background-color: #4481ff;
+}
