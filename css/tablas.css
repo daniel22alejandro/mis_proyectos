@@ -98,6 +98,7 @@ padding: 10px 15px;
     display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 .fa-times {
     color: red;
@@ -105,3 +106,10 @@ padding: 10px 15px;
   align-items: center;
   justify-content: center;
 }
+i {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+

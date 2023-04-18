@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="titulo">
+    <form action="GET" method="get">
+       <div class="demas">
+        <span>Oficina virtual</span>
+       </div>
+        <label class="sub">Ingrese tipo de documento</label>
+        <select name="Tipo de Identificación">
+            <option value="CC">Cédula de Ciudadania</option>
+            <option value="TI">Targeta de Identidad</option>
+            <option value="RC">Regsitro Cívil</option>
+            <option value="CE">Cédula de Extranjería</option>
+        </select><br>
+       <br><label>Ingrese su número de documento</label>
+        <input type="text" name="">
+        
+        <br><label>Seleccione los días para visualizar las citas disponibles</label><br>
+        <input type="checkbox" name="fecha-cita" value="2023-04-19">Miércoles, 19 de Abril del 2023<br>
+        <input type="checkbox" name="fecha-cita" value="2023-04-20">Jueves, 20 de Abril del 2023<br>
+        <input type="checkbox" name="fecha-cita" value="2023-04-21">Viernes, 21 de Abril del 2023<br>
+        <input type="checkbox" name="fecha-cita" value="2023-04-22">Sabado, 22 de Abril del 2023<br>
+        <br> <label>Ingrese su género</label><br>
+
+        <input type="radio" name="genero" value="masculino">Masculino
+        <input type="radio" name="genero" value="femenino">Femenino
+        <input type="radio" name="genero" value="otro">Otro <br>
+        
+        <br><label for="">Le gustaría realizar una petición especial</label>
+        <br>
+        <textarea name="peticiones" cols="30" rows="5"></textarea>
+
+        <input type="submit" value="Iniciar sesión">
+
+ 
+        
+
+
+        
+
+
+
+    
+
+    </form>
+</div>
+        
+</body>
+</html>
