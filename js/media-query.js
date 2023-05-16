@@ -1,5 +1,14 @@
 let logoHamburguer = document.getElementById("logoHamburguer");
+let mainMenu = document.getElementById("mainMenu");
 
 logoHamburguer.addEventListener("click", function () {
-    alert("soy el boton hamburguesa")
+    if (mainMenu.classList.contains("main-menu")) {
+    mainMenu.classList.add("main-menu-block");
+    mainMenu.classList.remove("main-menu");
+    }
+    else {
+        mainMenu.classList.remove("main-emnu-block");
+        mainMenu.classList.add("main-menu");
+    }
+
 });
