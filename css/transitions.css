@@ -1,0 +1,59 @@
+.box-1 {
+    width: 300px;
+    height: 300px;
+    background-color:  darkblue;
+    transition: background-color 1.5s;
+}
+.box-1:hover {
+    background-color: darkcyan;
+    cursor: pointer;
+}
+
+.box-2 {
+    width: 300px;
+    height: 300px;
+    background-color:  darkblue;
+    transition: all 1.5s;
+}
+.box-2:hover {
+    width: 500px;
+    height: 350px;
+    background-color: darkcyan;
+    cursor: pointer;
+}
+.box-3 {
+    width: 550px;
+    height: 300px;
+}
+.box-3-1 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0;
+    background-color: darkblue;
+    transition: left 1500ms;
+}
+.box-3:hover > .box-3-1 {
+    cursor: pointer;
+    left: 250px;
+}
+.box-4 {
+    width: 270px;
+    height: 120px;
+    background-color: rgb(3, 116, 219);
+    border-radius: 70px;
+}
+.box-4-1 {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
+    background-color: whitesmoke;
+    transition: left 1500ms;
+}
+.box-4:media-1 > .box-4-1 {
+    cursor: pointer;
+    left: 150px;
+}

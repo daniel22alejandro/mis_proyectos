@@ -1,0 +1,109 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+}
+nav ul {
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+    position: absolute;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    /* position: absolute; */
+    display: block;
+    padding: 0 2.5em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+nav a:hover {
+    background-color: goldenrod
+}
+/* menú primer nivel */
+nav > ul > li{
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.2rem;
+}
+ul li {
+    position: relative;
+}
+/* menú segundo nivel */
+nav li li {
+    max-height: 0;
+    overflow: hidden;
+}
+nav li:hover > ul > li {
+    visibility: visible;
+    max-height: 500px;
+    overflow: visible;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+
+}
+/* menú tercer nivel */
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav ul {
+    list-style: none;
+    background-color: darkcyan;
+    position: absolute;
+    width: 100%;
+}
+nav ul li {
+    line-height: 70px;
+    width: 150px;
+    text-align: center;
+    position: relative;
+}
+nav li li {
+    max-height: 0;
+    overflow: hidden;
+}
+nav li:hover > ul > li {
+    max-height: 500px;
+    overflow: visible;
+}
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+} */
