@@ -60,11 +60,22 @@ h1 {
     height: 100%;
 }
 .main-box-5 {
-    width: 960px;
+    width: 970px;
+    height: 850px;
     margin: 0 auto 0 auto;
     gap: 20px;
     border: 5px solid rgb(64, 64, 64);
     display: grid;
+    /* position: absolute;
+    padding: 30px;
+    padding: 30px;
+    font-size: 2.2em;
+    text-decoration: none;
+    padding: 9px;
+    list-style: none;
+    background-color: rgba(179, 184, 184, 0.432);
+    padding: 9px;
+    border-radius: 4px; */
 }
 .mes {
     grid-column-start: 1;
@@ -99,7 +110,7 @@ h1 {
 }
 
 .nav {
-    position: absolute;
+position: absolute;
     padding: 30px;
 }
 
@@ -108,7 +119,7 @@ h1 {
     font-size: 2.2em;
     text-decoration: none;
     padding: 9px;
-}
+} 
 
 .nav nav ul li {
     list-style: none;
@@ -118,13 +129,14 @@ h1 {
     background-color: rgba(179, 184, 184, 0.432);
     padding: 9px;
     border-radius: 4px;
-}
+}  
 
 .calendario {
     display: grid;
     grid-template-columns: repeat(7, 140px);
     grid-template-rows: 60px 70px repeat(7, 100px);
     margin-top: 100px;
+    
 }
 
 .dia1 {
