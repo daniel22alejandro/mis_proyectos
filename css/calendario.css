@@ -189,13 +189,13 @@ h4 {
 }
 
 .festivo {
-    background-color: rgb(238, 69, 142);
+    background-color: rgb(121, 149, 42);
     color: white;
     position: relative;
 }
 
 .diasMes.festivo:hover {
-    border: 3px blue solid;
+    border: 3px rgb(34, 34, 101) solid;
 }
 
 .diasMes:hover {
@@ -204,6 +204,6 @@ h4 {
 }
 
 .diasSemana:hover {
-    border: 3px solid aqua;
+    border: 3px solid rgb(101, 148, 148);
     cursor: pointer;
 }
