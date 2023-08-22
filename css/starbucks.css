@@ -6,7 +6,7 @@
 header {
   display: grid;
   grid-template: "empty-left main-logo box-main-menu empty-right" 140px /
-                  140px       1fr       2fr           50px;
+                  140px      1fr       2fr           50px;
 }
 .main-logo {
   grid-area: main-logo;
@@ -59,7 +59,7 @@ font-size: 1.3em;
 margin-top: 140px;
 display: grid;
 grid-template: "empty-left product-text empty-center      product-img social-media" /
-                140px       5fr          minmax(0, 300px)  4fr         80px;
+                140px      5fr          minmax(0, 300px)  4fr         80px;
 }
 .product-text {
 grid-area: product-text;
