@@ -35,7 +35,6 @@ font-weight: 600;
 font-family: 'Poppins', sans-serif;
 }
 .main-circle {
-background-color: rgb(2, 104, 64);
 width: 1800px;
 height: 1800px;
 border-radius: 900px;
@@ -43,6 +42,15 @@ position: fixed;
 top: 280px;
 right: -950px;
 z-index: 5;
+}
+.main-circle-green {
+  background-color: rgb(2, 104, 64);
+}
+.main-circle-rose {
+  background-color: rgb(213, 104, 136);
+}
+.main-circle-pink {
+  background-color: rgb(215, 81, 176);
 }
 h1 {
 font-size: 5em;
@@ -114,6 +122,14 @@ z-index: 10;
 }
 .style-img-mini {
 z-index: 20;
+transition: all 0.7s;
+position: relative;
+top: 0;
+}
+.style-img-mini:hover {
+  cursor: pointer;
+  top: -30px;
+
 }
 .fa-brands {
 cursor: pointer;
