@@ -8,7 +8,7 @@ iceGreen.addEventListener("mouseover", function(){
     mainCircle.classList.add("main-circle-green")
     mainCircle.classList.remove("main-circle-rose")
     mainCircle.classList.remove("main-circle-pink")
-    mainImg.setAttribute("src", "/img/img1.png")
+    mainImg.setAttribute("src", "img/img1.png")
 })
 
 iceRose.addEventListener("mouseover", function(){
@@ -22,5 +22,5 @@ icePink.addEventListener("mouseover", function(){
     mainCircle.classList.remove("main-circle-green")
     mainCircle.classList.remove("main-circle-rose")
     mainCircle.classList.add("main-circle-pink")
-    mainImg.setAttribute("src", "/img/img3.png")
+    mainImg.setAttribute("src", "img/img3.png")
 })
