@@ -9,15 +9,15 @@
     height: 40px;
     background-color: rgb(255, 241, 89);
     display: grid;
-    grid-template: box-logo-merc    box-input      menu-hamburguesa carrito /
-                   60px             1fr            50px             50px ;
+    grid-template: "box-logo-merc    box-input      menu-hamburguesa carrito"/
+                    60px             1fr            50px             50px ;
 }
 .box-logo-merc {
     grid-area: box-logo-merc;
     display: flex;
     align-items: center;
     height: 40px;
-    width: 100px;
+    width: 100%;
     justify-content: center;
 }
 .logo-merc {
@@ -57,7 +57,11 @@
     height: 30px;
     padding-left: 20px;
 }
-
+.box-producto {
+    width: 200px;
+    height: 200px;
+    background-color: dodgerblue;
+}
 
 
 
