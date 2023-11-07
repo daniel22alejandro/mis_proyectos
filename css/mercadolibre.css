@@ -58,12 +58,26 @@
     padding-left: 20px;
 }
 .box-producto {
-    width: 200px;
-    height: 200px;
-    background-color: dodgerblue;
+    display: grid;
+    height: 140px;
+    width: 100%;
+    grid-template: "box-imagen box-info-producto"  /
+                    7fr        10fr;
 }
-
-
+.box-imagen {
+    grid-area: box-imagen;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-producto {
+    width: 85%;
+}
+.box-info-producto {
+    background-color: rgb(210, 210, 210, .8);
+    grid-area: box-info-producto;
+}
 
 
 

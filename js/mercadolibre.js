@@ -1,17 +1,31 @@
-let mainContent = document.getElementById("mainContent");
-
-let boxProducto = document.createElement("div");
-mainContent.appendChild(boxProducto);
-boxProducto.setAttribute("class", "box-producto");
+let boxProductos = document.getElementById("boxProductos")
 
 
-let marcaProducto = document.createElement("label");
-mainContent.appendChild(marcaProducto);
-let nodoMarcaProducto = document.createTextNode("Ford");
-marcaProducto.appendChild(nodoMarcaProducto);
+// contenedor para productos individuales
+let boxProducto = document.createElement("div")
+boxProductos.appendChild(boxProducto)
+boxProducto.setAttribute("class", "box-producto")
 
-//cargar imagen
 
-let imgProducto = document.createElement("img");
-mainContent.appendChild(imgProducto);
-imgProducto.setAttribute("src","img/Ford-titanium.webp");
+// contenedor para la imagen
+let boxImagen = document.createElement("div")
+boxProducto.appendChild(boxImagen)
+boxImagen.setAttribute("class", "box-imagen")
+let imagenProducto = document.createElement("img")
+boxImagen.appendChild(imagenProducto)
+imagenProducto.setAttribute("src", "img/Ford-titanium.webp")
+imagenProducto.setAttribute("class", "imagen-producto")
+
+
+
+// contenedor para la informacion
+let infoProducto = document.createElement("div")
+boxProducto.appendChild(infoProducto)
+infoProducto.setAttribute("class", "box-info-producto")
+
+
+
+let marcaProducto = document.createElement("label")
+infoProducto.appendChild(marcaProducto)
+let nodoMarcaProducto = document.createTextNode("Ford Fiesta 1.6 Titanium Mecanico")
+marcaProducto.appendChild(nodoMarcaProducto)
