@@ -13,7 +13,7 @@ boxProducto.appendChild(boxImagen)
 boxImagen.setAttribute("class", "box-imagen")
 let imagenProducto = document.createElement("img")
 boxImagen.appendChild(imagenProducto)
-imagenProducto.setAttribute("src", "img/Ford-titanium.webp")
+imagenProducto.setAttribute("src", "img/Ducati_multiestrada.webp")
 imagenProducto.setAttribute("class", "imagen-producto")
 
 
@@ -27,5 +27,5 @@ infoProducto.setAttribute("class", "box-info-producto")
 
 let marcaProducto = document.createElement("label")
 infoProducto.appendChild(marcaProducto)
-let nodoMarcaProducto = document.createTextNode("Ford Fiesta 1.6 Titanium Mecanico")
+let nodoMarcaProducto = document.createTextNode("Ducati Multistrada V4")
 marcaProducto.appendChild(nodoMarcaProducto)
