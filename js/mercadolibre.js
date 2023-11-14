@@ -20,6 +20,19 @@ let auto4 = new Automovil("BMW", "S1000rr", "$145.000.000", "2023", "1.800 km", 
 
 
 let boxProductos = document.getElementById("boxProductos")
+let inputBusqueda = document.getElementById("inputBusqueda")
+
+window.addEventListener("keydown", (event) => {
+  
+  
+    if (event.key  == "Enter") {
+        let inputBusqueda =
+        if(inputBusqueda.innerText == "Ducati"){
+            cargarAutomovil(auto1);
+        }
+      
+    }
+})
 
 
 cargarAutomovil(auto1)
@@ -59,7 +72,7 @@ infoProducto.setAttribute("class", "box-info-producto")
 
 let marcaProducto = document.createElement("label")
 infoProducto.appendChild(marcaProducto)
-let nodoMarcaProducto = document.createTextNode(auto.marca)
+let nodoMarcaProducto = document.createTextNode(auto.marca + "  ")
 marcaProducto.appendChild(nodoMarcaProducto)
 marcaProducto.setAttribute("class", "marca-producto")
 
