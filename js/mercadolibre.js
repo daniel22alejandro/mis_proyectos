@@ -19,20 +19,20 @@ let auto4 = new Automovil("BMW", "S1000rr", "$145.000.000", "2023", "1.800 km", 
 
 
 
-let boxProductos = document.getElementById("boxProductos")
-let inputBusqueda = document.getElementById("inputBusqueda")
+// let boxProductos = document.getElementById("boxProductos")
+// let inputBusqueda = document.getElementById("inputBusqueda")
 
-window.addEventListener("keydown", (event) => {
+// window.addEventListener("keydown", (event) => {
   
   
-    if (event.key  == "Enter") {
-        let inputBusqueda =
-        if(inputBusqueda.innerText == "Ducati"){
-            cargarAutomovil(auto1);
-        }
+//     if (event.key  == "Enter") {
+//         let inputBusqueda =
+//        (inputBusqueda.innerText == "Ducati"){
+//             cargarAutomovil(auto1);
+//         }
       
-    }
-})
+//     }
+// })
 
 
 cargarAutomovil(auto1)
