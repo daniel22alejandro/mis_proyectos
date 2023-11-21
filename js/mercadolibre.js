@@ -19,26 +19,36 @@ let auto4 = new Automovil("BMW", "S1000rr", "$145.000.000", "2023", "1.800 km", 
 
 
 
-// let boxProductos = document.getElementById("boxProductos")
-// let inputBusqueda = document.getElementById("inputBusqueda")
-
-// window.addEventListener("keydown", (event) => {
-  
-  
-//     if (event.key  == "Enter") {
-//         let inputBusqueda =
-//        (inputBusqueda.innerText == "Ducati"){
-//             cargarAutomovil(auto1);
-//         }
-      
-//     }
-// })
-
-
+ let boxProductos = document.getElementById("boxProductos")
 cargarAutomovil(auto1)
 cargarAutomovil(auto2)
 cargarAutomovil(auto3)
 cargarAutomovil(auto4)
+
+ window.addEventListener("keydown", (event) => {
+     let inputBusqueda = document.getElementById("inputBusqueda").value;
+     if (event.key == "Enter") {
+         
+         boxProductos.innerHTML = "";
+         let inputBusquedaAux = inputBusqueda.toLowerCase();
+
+         if (inputBusquedaAux == "Ducati"){
+            cargarAutomovil(auto1);
+         }
+         else if (inputBusquedaAux == "Beneli"){
+            cargarAutomovil(auto2);
+        }
+        else if (inputBusquedaAux == "Kawazaki"){
+            cargarAutomovil(auto3);
+        }
+        else if (inputBusquedaAux == "BMW"){
+            cargarAutomovil(auto4);
+        }
+         else {
+             alert("no encontrado")
+         }
+     }
+ })
 
 
 
